@@ -29,10 +29,15 @@ const typeDefs = gql`
     genre: String
     "The name of the director"
     director: String
-    "The movie's rating on Rotten Tomatoes"
-    rottenTomatoesRating: Int
+    "How well this movie did according to audiences/critics"
+    scores: MovieScores
+  }
+
+  type MovieScores {
     "The movie's rating on IMDB"
-    imdbRating: Float
+    imdb: Float
+    "The movie's rating on Rotten Tomatoes"
+    rottenTomatoes: Int
   }
 `;
 
@@ -40,6 +45,16 @@ const resolvers = {
   Query: {
     movies: () => MoviesService().findAll(),
     movie: (root, { title }) => MoviesService().findByName(title),
+  },
+
+  Movie: {
+    scores: (movie) => movie,
+  },
+
+  MovieScores: {
+    imdb: (movie) => MoviesService().findByName(movie.title).imdbRating,
+    rottenTomatoes: (movie) =>
+      MoviesService().findByName(movie.title).rottenTomatoesRating,
   },
 };
 
