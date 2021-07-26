@@ -1,0 +1,254 @@
+[
+  {
+    "title": "To Kill A Mockingbird",
+    "releaseDate": "Dec 25 1962",
+    "rating": null,
+    "genre": null,
+    "director": null,
+    "rottenTomatoesRating": 97,
+    "imdbRating": 8.4
+  },
+  {
+    "title": "12 Angry Men",
+    "releaseDate": "Apr 13 1957",
+    "rating": null,
+    "genre": "Drama",
+    "director": "Sidney Lumet",
+    "rottenTomatoesRating": null,
+    "imdbRating": 8.9
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "releaseDate": "Apr 02 1968",
+    "rating": null,
+    "genre": null,
+    "director": "Stanley Kubrick",
+    "rottenTomatoesRating": 96,
+    "imdbRating": 8.4
+  },
+  {
+    "title": "Ace Ventura: Pet Detective",
+    "releaseDate": "Feb 04 1994",
+    "rating": "PG-13",
+    "genre": "Comedy",
+    "director": "Tom Shadyac",
+    "rottenTomatoesRating": 49,
+    "imdbRating": 6.6
+  },
+  {
+    "title": "Alice in Wonderland",
+    "releaseDate": "Jul 28 1951",
+    "rating": null,
+    "genre": "Musical",
+    "director": null,
+    "rottenTomatoesRating": 20,
+    "imdbRating": 6.7
+  },
+  {
+    "title": "Back to the Future",
+    "releaseDate": "Jul 03 1985",
+    "rating": null,
+    "genre": "Adventure",
+    "director": "Robert Zemeckis",
+    "rottenTomatoesRating": 96,
+    "imdbRating": 8.4
+  },
+  {
+    "title": "Back to the Future Part II",
+    "releaseDate": "Nov 22 1989",
+    "rating": null,
+    "genre": "Adventure",
+    "director": "Robert Zemeckis",
+    "rottenTomatoesRating": 64,
+    "imdbRating": 7.5
+  },
+  {
+    "title": "Back to the Future Part III",
+    "releaseDate": "May 24 1990",
+    "rating": null,
+    "genre": "Adventure",
+    "director": "Robert Zemeckis",
+    "rottenTomatoesRating": 71,
+    "imdbRating": 7.1
+  },
+  {
+    "title": "Boyz n the Hood",
+    "releaseDate": "Jul 12 1991",
+    "rating": null,
+    "genre": "Drama",
+    "director": "John Singleton",
+    "rottenTomatoesRating": 98,
+    "imdbRating": 7.8
+  },
+  {
+    "title": "Blade Runner",
+    "releaseDate": "Jun 25 1982",
+    "rating": "R",
+    "genre": "Thriller/Suspense",
+    "director": "Ridley Scott",
+    "rottenTomatoesRating": 92,
+    "imdbRating": 8.3
+  },
+  {
+    "title": "Bill & Ted's Bogus Journey",
+    "releaseDate": "Jul 19 1991",
+    "rating": null,
+    "genre": "Comedy",
+    "director": "Peter Hewitt",
+    "rottenTomatoesRating": 58,
+    "imdbRating": 5.8
+  },
+  {
+    "title": "Braveheart",
+    "releaseDate": "May 24 1995",
+    "rating": "R",
+    "genre": "Drama",
+    "director": "Mel Gibson",
+    "rottenTomatoesRating": 77,
+    "imdbRating": 8.4
+  },
+  {
+    "title": "Beetle Juice",
+    "releaseDate": "Mar 30 1988",
+    "rating": null,
+    "genre": "Comedy",
+    "director": "Tim Burton",
+    "rottenTomatoesRating": null,
+    "imdbRating": 7.3
+  },
+  {
+    "title": "Batman Returns",
+    "releaseDate": "Jun 18 1992",
+    "rating": "PG-13",
+    "genre": "Action",
+    "director": "Tim Burton",
+    "rottenTomatoesRating": 78,
+    "imdbRating": 6.9
+  },
+  {
+    "title": "Batman Forever",
+    "releaseDate": "Jun 16 1995",
+    "rating": "PG-13",
+    "genre": "Action",
+    "director": "Joel Schumacher",
+    "rottenTomatoesRating": 43,
+    "imdbRating": 5.4
+  },
+  {
+    "title": "Caddyshack",
+    "releaseDate": "Jul 25 1980",
+    "rating": null,
+    "genre": "Comedy",
+    "director": "Harold Ramis",
+    "rottenTomatoesRating": 75,
+    "imdbRating": 7.3
+  },
+  {
+    "title": "Close Encounters of the Third Kind",
+    "releaseDate": "Nov 16 1977",
+    "rating": null,
+    "genre": "Adventure",
+    "director": "Steven Spielberg",
+    "rottenTomatoesRating": 95,
+    "imdbRating": 7.8
+  },
+  {
+    "title": "Clerks",
+    "releaseDate": "Oct 19 1994",
+    "rating": "R",
+    "genre": "Comedy",
+    "director": "Kevin Smith",
+    "rottenTomatoesRating": 88,
+    "imdbRating": 7.9
+  },
+  {
+    "title": "Central do Brasil",
+    "releaseDate": "Nov 20 1998",
+    "rating": "R",
+    "genre": "Drama",
+    "director": "Walter Salles",
+    "rottenTomatoesRating": null,
+    "imdbRating": 8
+  },
+  {
+    "title": "Crocodile Dundee",
+    "releaseDate": "Sep 26 1986",
+    "rating": null,
+    "genre": "Comedy",
+    "director": null,
+    "rottenTomatoesRating": 88,
+    "imdbRating": 6.5
+  },
+  {
+    "title": "Casablanca",
+    "releaseDate": "Dec 31 1941",
+    "rating": null,
+    "genre": "Drama",
+    "director": "Michael Curtiz",
+    "rottenTomatoesRating": 97,
+    "imdbRating": 8.8
+  },
+  {
+    "title": "Casper",
+    "releaseDate": "May 26 1995",
+    "rating": "PG",
+    "genre": "Comedy",
+    "director": "Brad Silberling",
+    "rottenTomatoesRating": 41,
+    "imdbRating": 5.7
+  },
+  {
+    "title": "Dante's Peak",
+    "releaseDate": "Feb 07 1997",
+    "rating": "PG-13",
+    "genre": "Drama",
+    "director": "Roger Donaldson",
+    "rottenTomatoesRating": 28,
+    "imdbRating": 5.6
+  },
+  {
+    "title": "Dead Poets' Society",
+    "releaseDate": "Jun 02 1989",
+    "rating": null,
+    "genre": "Drama",
+    "director": "Peter Weir",
+    "rottenTomatoesRating": 86,
+    "imdbRating": 7.8
+  },
+  {
+    "title": "The Day the Earth Stood Still",
+    "releaseDate": "Mar 04 2003",
+    "rating": null,
+    "genre": null,
+    "director": null,
+    "rottenTomatoesRating": 94,
+    "imdbRating": 5.5
+  },
+  {
+    "title": "Die Hard",
+    "releaseDate": "Jul 15 1988",
+    "rating": null,
+    "genre": "Action",
+    "director": "John McTiernan",
+    "rottenTomatoesRating": 94,
+    "imdbRating": 7.3
+  },
+  {
+    "title": "Dances with Wolves",
+    "releaseDate": "Nov 09 1990",
+    "rating": null,
+    "genre": "Western",
+    "director": "Kevin Costner",
+    "rottenTomatoesRating": 76,
+    "imdbRating": 8
+  },
+  {
+    "title": "Dune",
+    "releaseDate": "Dec 14 1984",
+    "rating": null,
+    "genre": "Action",
+    "director": "David Lynch",
+    "rottenTomatoesRating": 62,
+    "imdbRating": 6.5
+  }
+]
