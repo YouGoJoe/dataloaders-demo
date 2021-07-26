@@ -1,0 +1,23 @@
+{
+  "name": "dataloaders-demo",
+  "version": "1.0.0",
+  "description": "A demo app to help explore the use of DataLoaders in a GraphQL server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouGoJoe/dataloaders-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YouGoJoe/dataloaders-demo/issues"
+  },
+  "homepage": "https://github.com/YouGoJoe/dataloaders-demo#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.0.2",
+    "nodemon": "^2.0.12"
+  }
+}
