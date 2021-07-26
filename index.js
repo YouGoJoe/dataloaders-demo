@@ -5,8 +5,7 @@ const {
   ApolloServerPluginLandingPageGraphQLPlayground,
 } = require("apollo-server-core");
 const app = express();
-
-const movieData = require("./data.json");
+const MoviesService = require("./services/Movies");
 
 const typeDefs = gql`
   scalar DateTime
@@ -14,6 +13,9 @@ const typeDefs = gql`
   type Query {
     "All movies"
     movies: [Movie!]
+
+    "Find a movie by its name"
+    movie(title: String!): Movie
   }
   "A movie's theatrical release information"
   type Movie {
@@ -36,7 +38,8 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    movies: () => movieData,
+    movies: () => MoviesService().findAll(),
+    movie: (root, { title }) => MoviesService().findByName(title),
   },
 };
 
