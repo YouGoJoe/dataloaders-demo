@@ -1,13 +1,11 @@
-const movieData = require("../data.json");
+const API = require("./MoviesAPI");
 
 module.exports = () => {
-  const findAll = () => movieData;
+  const findAll = async () => API.findAll();
 
-  const findByName = (name) => {
+  const findByName = async (name) => {
     console.log(`fetching data for movie: ${name.toLowerCase()}`);
-    return movieData.find(
-      (movie) => movie.title.toLowerCase() === name.toLowerCase()
-    );
+    return API.findByName(name);
   };
 
   return {

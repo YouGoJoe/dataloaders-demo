@@ -46,10 +46,17 @@ const resolvers = {
   },
 
   MovieScores: {
-    imdb: (movie) => MoviesService().findByName(movie.title).imdbRating,
-    rottenTomatoes: (movie) =>
-      MoviesService().findByName(movie.title).rottenTomatoesRating,
+    imdb: async (movie) => {
+      const { imdbRating } = await MoviesService().findByName(movie.title);
+      return imdbRating;
+    },
+    rottenTomatoes: async (movie) => {
+      const { rottenTomatoesRating } = await MoviesService().findByName(
+        movie.title
+      );
+      return rottenTomatoesRating;
+    },
   },
 };
 
-module.exports = { typeDefs, resolvers }
+module.exports = { typeDefs, resolvers };
