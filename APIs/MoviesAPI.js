@@ -1,4 +1,4 @@
-const movieData = require("../data.json");
+const movieData = require("./data.json");
 
 module.exports = {
   findAll: async () => {
