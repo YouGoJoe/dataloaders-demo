@@ -2,7 +2,8 @@ const API = require("./MoviesAPI");
 
 const DataLoader = require("dataloader");
 
-// create a new instance of a DataLoader
+module.exports = () => {
+  // create a new instance of a DataLoader
 const moviesLoader = new DataLoader(async (keys) => {
   console.log(`fetching data for movies: ${keys.join(", ")}`);
 
@@ -15,7 +16,6 @@ const moviesLoader = new DataLoader(async (keys) => {
   );
 });
 
-module.exports = () => {
   const findAll = async () => API.findAll();
 
   const findByName = async (name) => {

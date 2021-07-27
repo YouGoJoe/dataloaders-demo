@@ -5,11 +5,15 @@ const {
 } = require("apollo-server-core");
 const app = express();
 const { typeDefs, resolvers } = require("./types/Movies");
+const MoviesService = require("./services/Movies");
 
 const startup = async () => {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
+    context: () => ({
+      MoviesService: MoviesService(),
+    }),
     plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
     introspection: true,
     playground: true,

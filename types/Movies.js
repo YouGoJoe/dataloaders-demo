@@ -1,5 +1,4 @@
 const { gql } = require("apollo-server-express");
-const MoviesService = require("../services/Movies");
 
 const typeDefs = gql`
   scalar DateTime
@@ -37,8 +36,9 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    movies: () => MoviesService().findAll(),
-    movie: (root, { title }) => MoviesService().findByName(title),
+    movies: (root, _, { MoviesService }) => MoviesService.findAll(),
+    movie: (root, { title }, { MoviesService }) =>
+      MoviesService.findByName(title),
   },
 
   Movie: {
@@ -46,12 +46,12 @@ const resolvers = {
   },
 
   MovieScores: {
-    imdb: async (movie) => {
-      const { imdbRating } = await MoviesService().findByName(movie.title);
+    imdb: async (movie, _, { MoviesService }) => {
+      const { imdbRating } = await MoviesService.findByName(movie.title);
       return imdbRating;
     },
-    rottenTomatoes: async (movie) => {
-      const { rottenTomatoesRating } = await MoviesService().findByName(
+    rottenTomatoes: async (movie, _, { MoviesService }) => {
+      const { rottenTomatoesRating } = await MoviesService.findByName(
         movie.title
       );
       return rottenTomatoesRating;
