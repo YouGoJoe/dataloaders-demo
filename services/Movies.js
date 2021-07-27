@@ -1,4 +1,4 @@
-const API = require("./MoviesAPI");
+const API = require("../APIs/MoviesAPI");
 
 module.exports = () => {
   const findAll = async () => API.findAll();

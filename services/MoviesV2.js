@@ -1,4 +1,4 @@
-const API = require("./MoviesAPI");
+const API = require("../APIs/MoviesAPI");
 
 const DataLoader = require("dataloader");
 
