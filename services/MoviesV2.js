@@ -12,9 +12,7 @@ module.exports = () => {
 
     // map keys back to their found values (or `null` if not found)
     return keys.map((key) =>
-      foundMovies.find(
-        (movie) => key.toLowerCase() === movie.title.toLowerCase()
-      )
+      foundMovies.find((movie) => key === movie.title.toLowerCase())
     );
   });
 
