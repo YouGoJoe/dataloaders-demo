@@ -3,7 +3,8 @@ const API = require("../APIs/MoviesAPI");
 module.exports = () => {
   const findAll = async () => {
     console.log("fetching data for all movies");
-    return API.findAll();
+    const movies = await API.findAll();
+    return movies;
   };
 
   const findByName = async (name) => {

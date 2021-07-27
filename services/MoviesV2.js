@@ -18,7 +18,9 @@ module.exports = () => {
 
   const findAll = async () => {
     console.log("fetching data for all movies");
-    return API.findAll();
+    const movies = await API.findAll();
+    movies.map((movie) => moviesLoader.prime(movie.title.toLowerCase(), movie));
+    return movies;
   };
 
   const findByName = async (name) => {
