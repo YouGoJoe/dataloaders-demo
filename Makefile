@@ -1,3 +1,3 @@
 .PHONY: start
 start: ## install dependencies and run the project
-	yarn && yarn start
+	npm install && npm run start
