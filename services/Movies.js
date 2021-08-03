@@ -12,8 +12,14 @@ module.exports = () => {
     return API.findByName(name);
   };
 
+  const findByNames = async (names) => {
+    console.log(`fetching data for movies: ${names.join(", ")}`);
+    return API.findByNames(names);
+  };
+
   return {
     findAll,
     findByName,
+    findByNames,
   };
 };

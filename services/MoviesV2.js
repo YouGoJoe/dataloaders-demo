@@ -27,8 +27,14 @@ module.exports = () => {
     return moviesLoader.load(name.toLowerCase());
   };
 
+  const findByNames = async (names) => {
+    console.log(`fetching data for movies: ${names.join(", ")}`);
+    return moviesLoader.loadMany(names);
+  };
+
   return {
     findAll,
     findByName,
+    findByNames,
   };
 };
