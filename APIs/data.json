@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "title": "To Kill A Mockingbird",
     "releaseDate": "Dec 25 1962",
     "rating": null,
@@ -10,7 +10,7 @@
     "imdbRating": 8.4
   },
   {
-    "id": 2,
+    "id": "2",
     "title": "12 Angry Men",
     "releaseDate": "Apr 13 1957",
     "rating": null,
@@ -20,7 +20,7 @@
     "imdbRating": 8.9
   },
   {
-    "id": 3,
+    "id": "3",
     "title": "2001: A Space Odyssey",
     "releaseDate": "Apr 02 1968",
     "rating": null,
@@ -30,7 +30,7 @@
     "imdbRating": 8.4
   },
   {
-    "id": 4,
+    "id": "4",
     "title": "Ace Ventura: Pet Detective",
     "releaseDate": "Feb 04 1994",
     "rating": "PG-13",
@@ -40,7 +40,7 @@
     "imdbRating": 6.6
   },
   {
-    "id": 5,
+    "id": "5",
     "title": "Alice in Wonderland",
     "releaseDate": "Jul 28 1951",
     "rating": null,
@@ -50,7 +50,7 @@
     "imdbRating": 6.7
   },
   {
-    "id": 6,
+    "id": "6",
     "title": "Back to the Future",
     "releaseDate": "Jul 03 1985",
     "rating": null,
@@ -60,7 +60,7 @@
     "imdbRating": 8.4
   },
   {
-    "id": 7,
+    "id": "7",
     "title": "Back to the Future Part II",
     "releaseDate": "Nov 22 1989",
     "rating": null,
@@ -70,7 +70,7 @@
     "imdbRating": 7.5
   },
   {
-    "id": 8,
+    "id": "8",
     "title": "Back to the Future Part III",
     "releaseDate": "May 24 1990",
     "rating": null,
@@ -80,7 +80,7 @@
     "imdbRating": 7.1
   },
   {
-    "id": 9,
+    "id": "9",
     "title": "Boyz n the Hood",
     "releaseDate": "Jul 12 1991",
     "rating": null,
@@ -90,7 +90,7 @@
     "imdbRating": 7.8
   },
   {
-    "id": 10,
+    "id": "10",
     "title": "Blade Runner",
     "releaseDate": "Jun 25 1982",
     "rating": "R",
@@ -100,7 +100,7 @@
     "imdbRating": 8.3
   },
   {
-    "id": 11,
+    "id": "11",
     "title": "Bill & Ted's Bogus Journey",
     "releaseDate": "Jul 19 1991",
     "rating": null,
@@ -110,7 +110,7 @@
     "imdbRating": 5.8
   },
   {
-    "id": 12,
+    "id": "12",
     "title": "Braveheart",
     "releaseDate": "May 24 1995",
     "rating": "R",
@@ -120,7 +120,7 @@
     "imdbRating": 8.4
   },
   {
-    "id": 13,
+    "id": "13",
     "title": "Beetle Juice",
     "releaseDate": "Mar 30 1988",
     "rating": null,
@@ -130,7 +130,7 @@
     "imdbRating": 7.3
   },
   {
-    "id": 14,
+    "id": "14",
     "title": "Batman Returns",
     "releaseDate": "Jun 18 1992",
     "rating": "PG-13",
@@ -140,7 +140,7 @@
     "imdbRating": 6.9
   },
   {
-    "id": 15,
+    "id": "15",
     "title": "Batman Forever",
     "releaseDate": "Jun 16 1995",
     "rating": "PG-13",
@@ -150,7 +150,7 @@
     "imdbRating": 5.4
   },
   {
-    "id": 16,
+    "id": "16",
     "title": "Caddyshack",
     "releaseDate": "Jul 25 1980",
     "rating": null,
@@ -160,7 +160,7 @@
     "imdbRating": 7.3
   },
   {
-    "id": 17,
+    "id": "17",
     "title": "Close Encounters of the Third Kind",
     "releaseDate": "Nov 16 1977",
     "rating": null,
@@ -170,7 +170,7 @@
     "imdbRating": 7.8
   },
   {
-    "id": 18,
+    "id": "18",
     "title": "Clerks",
     "releaseDate": "Oct 19 1994",
     "rating": "R",
@@ -180,7 +180,7 @@
     "imdbRating": 7.9
   },
   {
-    "id": 19,
+    "id": "19",
     "title": "Crocodile Dundee",
     "releaseDate": "Sep 26 1986",
     "rating": null,
@@ -190,7 +190,7 @@
     "imdbRating": 6.5
   },
   {
-    "id": 20,
+    "id": "20",
     "title": "Casablanca",
     "releaseDate": "Dec 31 1941",
     "rating": null,
@@ -200,7 +200,7 @@
     "imdbRating": 8.8
   },
   {
-    "id": 21,
+    "id": "21",
     "title": "Casper",
     "releaseDate": "May 26 1995",
     "rating": "PG",
@@ -210,7 +210,7 @@
     "imdbRating": 5.7
   },
   {
-    "id": 22,
+    "id": "22",
     "title": "Dante's Peak",
     "releaseDate": "Feb 07 1997",
     "rating": "PG-13",
@@ -220,7 +220,7 @@
     "imdbRating": 5.6
   },
   {
-    "id": 23,
+    "id": "23",
     "title": "Dead Poets' Society",
     "releaseDate": "Jun 02 1989",
     "rating": null,
@@ -230,7 +230,7 @@
     "imdbRating": 7.8
   },
   {
-    "id": 24,
+    "id": "24",
     "title": "The Day the Earth Stood Still",
     "releaseDate": "Mar 04 2003",
     "rating": null,
@@ -240,7 +240,7 @@
     "imdbRating": 5.5
   },
   {
-    "id": 25,
+    "id": "25",
     "title": "Die Hard",
     "releaseDate": "Jul 15 1988",
     "rating": null,
@@ -250,7 +250,7 @@
     "imdbRating": 7.3
   },
   {
-    "id": 26,
+    "id": "26",
     "title": "Dances with Wolves",
     "releaseDate": "Nov 09 1990",
     "rating": null,
@@ -260,7 +260,7 @@
     "imdbRating": 8
   },
   {
-    "id": 27,
+    "id": "27",
     "title": "Dune",
     "releaseDate": "Dec 14 1984",
     "rating": null,

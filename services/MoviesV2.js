@@ -9,9 +9,7 @@ module.exports = () => {
     const foundMovies = await API.findByIds(keys);
 
     // map keys back to their found values (or `null` if not found)
-    return keys.map((key) =>
-      foundMovies.find((movie) => Number(key) === movie.id)
-    );
+    return keys.map((key) => foundMovies.find((movie) => key === movie.id));
   });
 
   const findAll = async () => {
@@ -20,10 +18,9 @@ module.exports = () => {
     return movies;
   };
 
-  const findById = async (id) => moviesLoader.load(Number(id));
+  const findById = async (id) => moviesLoader.load(id);
 
-  const findByIds = async (ids) =>
-    moviesLoader.loadMany(ids.map((id) => Number(id)));
+  const findByIds = async (ids) => moviesLoader.loadMany(ids.map((id) => id));
 
   return {
     findAll,
