@@ -5,17 +5,13 @@ module.exports = {
     return movieData;
   },
 
-  findByName: async (name) => {
-    return movieData.find(
-      (movie) => movie.title.toLowerCase() === name.toLowerCase()
-    );
+  findById: async (id) => {
+    return movieData.find((movie) => movie.id === Number(id));
   },
 
-  findByNames: async (names) => {
-    const movieTitlesLower = names.map((name) => name.toLowerCase());
+  findByIds: async (ids) => {
+    const parsedIds = ids.map((id) => Number(id));
 
-    return movieData.filter((movie) =>
-      movieTitlesLower.includes(movie.title.toLowerCase())
-    );
+    return movieData.filter((movie) => parsedIds.includes(movie.id));
   },
 };

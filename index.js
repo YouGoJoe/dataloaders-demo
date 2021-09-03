@@ -4,7 +4,7 @@ const {
   ApolloServerPluginLandingPageGraphQLPlayground,
 } = require("apollo-server-core");
 const app = express();
-const MoviesService = require("./services/Movies");
+const MoviesService = require("./services/MoviesV2");
 
 const typeDefs = gql`
   scalar DateTime
@@ -13,8 +13,8 @@ const typeDefs = gql`
     "All movies"
     movies: [Movie!]
 
-    "Find a movie by its name"
-    movie(title: String!): Movie
+    "Find a movie by its ID"
+    movie(id: ID!): Movie
   }
   "A movie's theatrical release information"
   type Movie {
@@ -43,8 +43,7 @@ const typeDefs = gql`
 const resolvers = {
   Query: {
     movies: (root, _, { MoviesService }) => MoviesService.findAll(),
-    movie: (root, { title }, { MoviesService }) =>
-      MoviesService.findByName(title),
+    movie: (root, { id }, { MoviesService }) => MoviesService.findById(id),
   },
 
   Movie: {
@@ -53,13 +52,11 @@ const resolvers = {
 
   MovieScores: {
     imdb: async (movie, _, { MoviesService }) => {
-      const { imdbRating } = await MoviesService.findByName(movie.title);
+      const { imdbRating } = await MoviesService.findById(movie.id);
       return imdbRating;
     },
     rottenTomatoes: async (movie, _, { MoviesService }) => {
-      const { rottenTomatoesRating } = await MoviesService.findByName(
-        movie.title
-      );
+      const { rottenTomatoesRating } = await MoviesService.findById(movie.id);
       return rottenTomatoesRating;
     },
   },

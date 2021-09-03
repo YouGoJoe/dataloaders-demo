@@ -7,19 +7,19 @@ module.exports = () => {
     return movies;
   };
 
-  const findByName = async (name) => {
-    console.log(`fetching data for movie: ${name.toLowerCase()}`);
-    return API.findByName(name);
+  const findById = async (id) => {
+    console.log(`fetching data for movie: ${id}`);
+    return API.findById(id);
   };
 
-  const findByNames = async (names) => {
-    console.log(`fetching data for movies: ${names.join(", ")}`);
-    return API.findByNames(names);
+  const findByIds = async (ids) => {
+    console.log(`fetching data for movies: ${ids.join(", ")}`);
+    return API.findByIds(ids);
   };
 
   return {
     findAll,
-    findByName,
-    findByNames,
+    findById,
+    findByIds,
   };
 };
