@@ -1,12 +1,10 @@
 const express = require("express");
-const { ApolloServer } = require("apollo-server-express");
+const { ApolloServer, gql } = require("apollo-server-express");
 const {
   ApolloServerPluginLandingPageGraphQLPlayground,
 } = require("apollo-server-core");
 const app = express();
 const MoviesService = require("./services/Movies");
-
-const { gql } = require("apollo-server-express");
 
 const typeDefs = gql`
   scalar DateTime
