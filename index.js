@@ -4,7 +4,7 @@ const {
   ApolloServerPluginLandingPageGraphQLPlayground,
 } = require("apollo-server-core");
 const app = express();
-const MoviesService = require("./services/MoviesV2");
+const MoviesService = require("./services/Movies");
 
 const typeDefs = gql`
   scalar DateTime
